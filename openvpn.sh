@@ -415,7 +415,7 @@ WantedBy=multi-user.target" >> /etc/systemd/system/openvpn-iptables.service
 	echo "client
 dev tun
 proto $protocol
-remote $ip $port
+remote whyuds.tk $port
 resolv-retry infinite
 nobind
 persist-key
